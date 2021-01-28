@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+.main{
+    background-color: rgb(255, 255, 255);
+
+    position:absolute;
+    top:0px;
+    left:0px;
+
+    height:100%;
+    width:100%;
+}
+
+.btin{
+    width: 100%;
+    height: 100%;
+}
+
+.mbl{
+    margin: auto;
+    padding: 5px;
+
+    background-color: rgb(255, 255, 255);
+
+    border-style: none;
+    border-color: lightcoral;
+
+    min-width: 280px;
+    max-width: 750px;
+    height: 98%;
+
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr ;
+
+}
+
+
+  
+.conti{
+    background-color: rgb(178, 237, 100);
+    border-style: none;
+    border-color: forestgreen;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}

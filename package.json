@@ -20,8 +20,10 @@
     "@angular/platform-browser-dynamic": "~11.1.0",
     "@angular/router": "~11.1.0",
     "@types/jquery": "^3.5.5",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "jquery": "^3.5.1",
     "rxjs": "~6.6.0",
+    "save-dev": "^0.0.1-security",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },

@@ -8,6 +8,7 @@ import { ProformComponent } from './components/proform/proform.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LoginComponent } from './components/login/login.component';
 import * as $ from 'jquery';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import * as $ from 'jquery';
     PslistComponent,
     ProformComponent,
     NavigationComponent,
-    LoginComponent
+    LoginComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
