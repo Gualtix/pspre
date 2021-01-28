@@ -1,0 +1,3 @@
+npm i angular-cli-ghpages --save-dev
+ng build --prod --base-href "https://gualtix.github.io/pspre"
+npx angular-cli-ghpages --dir=dist/pspre
