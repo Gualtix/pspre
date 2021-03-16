@@ -9,6 +9,28 @@
     width:100%;
 }
 
+.cnt{
+
+    border-style: solid;
+    border-color: silver;
+    border-radius: 5px;
+    border-width: 1px;
+    
+    margin: auto;
+    
+    width: 100%;
+    height: auto;
+
+    box-sizing : border-box;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+
+
+
+
+/*
 .btin{
     width: 100%;
     height: 100%;
@@ -52,3 +74,4 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .gmnoprint div {
     background:none !important;
 }
+*/
