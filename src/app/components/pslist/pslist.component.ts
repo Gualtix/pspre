@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PslistComponent implements OnInit {
 
+  
   constructor() { }
+
+
 
   ngOnInit(): void {
   }

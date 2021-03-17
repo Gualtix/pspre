@@ -9,6 +9,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { LoginComponent } from './components/login/login.component';
 import * as $ from 'jquery';
 import { CardComponent } from './components/card/card.component';
+//import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
