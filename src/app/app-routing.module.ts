@@ -9,7 +9,7 @@ import { CubitoComponent } from './cubito/cubito.component';
 
 const routes: Routes = [
   { path: '',
-    redirectTo: 'cubito',
+    redirectTo: 'pslist',
     pathMatch: 'full'
   },
   {
