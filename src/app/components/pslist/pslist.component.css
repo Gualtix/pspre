@@ -1,8 +1,58 @@
-#card{
-    margin-top: 10px;
+.mat{
+    
+
+    width: 328px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    
+    box-sizing: border-box;
+    margin: auto;
 }
 
-#lst{
-
+.conti{
     width: 100%;
+    margin: auto;
+    background-color: white;
 }
+
+.sept{
+    padding-left: 5px;
+    
+}
+
+.sap{
+    border-radius: 5px;
+    border-style: solid;
+
+    border-color: tomato;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;    
+}
+
+.nent{
+    width: 100%;
+    margin: auto;
+    background-color: khaki;
+    height: auto;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    padding: 0px;
+}
+
+.cbs{
+    font-family: "aribold", Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    width: 330px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 0px;
+    line-height: 35px;
+    border: 60px;
+
+}
+
+

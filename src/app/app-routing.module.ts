@@ -4,11 +4,12 @@ import { PslistComponent} from './components/pslist/pslist.component';
 import { ProformComponent } from  './components/proform/proform.component';
 import { LoginComponent } from  './components/login/login.component';
 import { CardComponent } from './components/card/card.component';
+import { CubitoComponent } from './cubito/cubito.component';
 
 
 const routes: Routes = [
   { path: '',
-    redirectTo: 'pslist',
+    redirectTo: 'cubito',
     pathMatch: 'full'
   },
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'card',
     component: CardComponent
+  },
+  {
+    path: 'cubito',
+    component: CubitoComponent
   }
 ];
 

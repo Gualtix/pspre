@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "aribold";
+    src: local("aribold"), url(./assets/aribold.ttf) format("truetype");
+}
+
 .main{
     background-color: rgb(255, 255, 255);
 

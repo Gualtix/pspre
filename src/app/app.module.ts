@@ -9,7 +9,9 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { LoginComponent } from './components/login/login.component';
 import * as $ from 'jquery';
 import { CardComponent } from './components/card/card.component';
-//import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+import { CubitoComponent } from './cubito/cubito.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,14 @@ import { CardComponent } from './components/card/card.component';
     ProformComponent,
     NavigationComponent,
     LoginComponent,
-    CardComponent
+    CardComponent,
+    CubitoComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js',{enabled: environment.production})
   ],
   providers: [],
   bootstrap: [AppComponent]

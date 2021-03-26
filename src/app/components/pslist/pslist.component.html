@@ -1,4 +1,235 @@
-<div class="cnt" id="card">
+<br>
+<div class="mat">
+
+        <div class="sap" style="border-color: rgb(202, 72, 50);">
+                <button class="cbs btn btn-success" style="border-radius: 0px; background-color: tomato;"  data-toggle="collapse" data-target="#seven_colapse" aria-expanded="false">
+                        7' = 2.10m
+                </button>
+
+                <div class="sept">
+                        
+                        <div class="conti collapse" id="seven_colapse">
+                                <div style="height: 5px;"></div>
+                                <div class="nent">
+                                        
+                                        <div *ngFor="let item of seven_list;"> 
+
+                                                <app-cubito 
+                                                [dims]="item.descrip"
+                                                [rust]="item.rust_price"
+                                                [cepi]="item.cepi_price"
+                                                >
+                                                </app-cubito>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="sap" style="border-color: #1e8d38;">
+                <button class="cbs btn btn-success" style="background-color: #4BB524; border-radius: 0px;" type="button" data-toggle="collapse" data-target="#eight_colapse" aria-expanded="false" aria-controls="collapseExample">
+                        8' = 2.40m
+                </button>
+
+                <div class="sept">
+                        <div class="conti collapse" id="eight_colapse">
+                                <div style="height: 5px;"></div>
+                                <div class="nent">
+                                        <div *ngFor="let item of eight_list;"> 
+
+                                                <app-cubito 
+                                                [dims]="item.descrip"
+                                                [rust]="item.rust_price"
+                                                [cepi]="item.cepi_price"
+                                                >
+                                                </app-cubito>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="sap" style="border-color: #074fbb;">
+                <button class="cbs btn btn-primary" type="button" style="background-color: #0467FB; border-radius: 0px;" data-toggle="collapse" data-target="#nine_colapse" aria-expanded="false" aria-controls="collapseExample">
+                        9' = 2.70m
+                </button>
+
+                <div class="sept">
+                        <div class="conti collapse" id="nine_colapse">
+                                <div style="height: 5px;"></div>
+                                <div class="nent">
+                                        <div *ngFor="let item of nine_list;"> 
+
+                                                <app-cubito 
+                                                [dims]="item.descrip"
+                                                [rust]="item.rust_price"
+                                                [cepi]="item.cepi_price"
+                                                >
+                                                </app-cubito>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="sap" style="border-color: #b96a09;">
+                <button class="cbs btn btn-primary" type="button" style="background-color: darkorange; border-radius: 0px;" data-toggle="collapse" data-target="#ten_colapse" aria-expanded="false" aria-controls="collapseExample">
+                        10' = 3.00m
+                </button>
+
+                <div class="sept">
+                        <div class="conti collapse" id="ten_colapse">
+                                <div style="height: 5px;"></div>
+                                <div class="nent">
+                                        <div *ngFor="let item of ten_list;"> 
+
+                                                <app-cubito 
+                                                [dims]="item.descrip"
+                                                [rust]="item.rust_price"
+                                                [cepi]="item.cepi_price"
+                                                >
+                                                </app-cubito>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="sap" style="border-color: #9c0707;">
+                <button class="cbs btn btn-danger" type="button" style="border-radius: 0px;" data-toggle="collapse" data-target="#twelve_colapse" aria-expanded="false" aria-controls="collapseExample">
+                        12' = 3.60m
+                </button>
+
+                <div class="sept">
+                        <div class="conti collapse" id="twelve_colapse">
+                                <div style="height: 5px;"></div>
+                                <div class="nent">
+                                        <div *ngFor="let item of twelve_list;"> 
+
+                                                <app-cubito 
+                                                [dims]="item.descrip"
+                                                [rust]="item.rust_price"
+                                                [cepi]="item.cepi_price"
+                                                >
+                                                </app-cubito>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+
+
+        
+
+
+
+        <!--
         <img id="lst" src="assets/psp.png" style="margin-bottom: 5px;" />
-</div>
+        -->
+
+        <!--
+        <button class="cbs btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                7'
+        </button>
+        
+        <div class="conti collapse" id="collapseExample">
+                <div class="nent">
+
+                        <app-cubito [rust]='xanks'>
+
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+
+                        <app-cubito [rust]='xanks'>
+                
+                        </app-cubito>
+                
+
+                </div>
+        </div>
+        -->
+        
+
+ <!--
+
+        <button type="button" class=" cbs btn btn-primary">7'</button>
+        <button type="button" class=" cbs btn btn-primary">8'</button>
+        <button type="button" class=" cbs btn btn-primary">9'</button>
+        <button type="button" class=" cbs btn btn-primary">10'</button>
+        <button type="button" class=" cbs btn btn-primary">12'</button>
+        
+       
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+
+        <app-cubito [rust]='xanks'>
+
+        </app-cubito>
+        -->
+
 
