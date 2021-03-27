@@ -1,0 +1,95 @@
+.mat{
+    
+
+    width: 328px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#lst{
+    margin: auto;
+    height: auto;
+    width: 340px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: crimson;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.conti{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.sept{
+    padding-left: 0px;
+    
+}
+
+.sap{
+    border-radius: 5px;
+    border-style: solid;
+
+    border-color: tomato;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;   
+    padding: 0px;
+    margin: 0px; 
+    margin-bottom: 5px;
+}
+
+.nent{
+    width: 100%;
+    margin: auto;
+    background-color: khaki;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cbs{
+    font-family: "aribold", Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    width: 330px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 0px;
+    line-height: 35px;
+    border: 60px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.linea{
+    font-family: "aribold", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 75% 24%;
+    gap: 3px    ;
+    color: white;
+
+
+
+}
+
+.desc{
+    background-color: rgb(55, 148, 235);
+    border-radius: 5px ;
+    padding-left: 5px;
+}
+
+

@@ -5,6 +5,8 @@ import { ProformComponent } from  './components/proform/proform.component';
 import { LoginComponent } from  './components/login/login.component';
 import { CardComponent } from './components/card/card.component';
 import { CubitoComponent } from './cubito/cubito.component';
+import { AglomeradosComponent } from './components/aglomerados/aglomerados.component';
+import { AtaudesComponent } from './components/ataudes/ataudes.component';
 
 
 const routes: Routes = [
@@ -15,6 +17,14 @@ const routes: Routes = [
   {
     path: 'pslist',
     component: PslistComponent
+  },
+  {
+    path: 'aglomerados',
+    component: AglomeradosComponent
+  },
+  {
+    path: 'ataudes',
+    component: AtaudesComponent
   },
   {
     path: 'proform',

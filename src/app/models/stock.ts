@@ -761,6 +761,96 @@ export class Stock{
             prod:
             {
                 id:"",
+                descrip:"Reglilla de Pino Rustica: 3 x 3 x 7",
+                cost:"",
+                rust_price:"40",
+                cepi_price:"45",
+                stock_list:
+                [
+                    {
+                        suc_id:"001",
+                        suc_name:"Central",
+                        stock:"0"
+                    }
+                ]
+            }
+        },
+        {
+            prod:
+            {
+                id:"",
+                descrip:"Reglilla de Pino Rustica: 3 x 3 x 8",
+                cost:"",
+                rust_price:"45",
+                cepi_price:"50",
+                stock_list:
+                [
+                    {
+                        suc_id:"001",
+                        suc_name:"Central",
+                        stock:"0"
+                    }
+                ]
+            }
+        },
+        {
+            prod:
+            {
+                id:"",
+                descrip:"Reglilla de Pino Rustica: 3 x 3 x 9",
+                cost:"",
+                rust_price:"50",
+                cepi_price:"55",
+                stock_list:
+                [
+                    {
+                        suc_id:"001",
+                        suc_name:"Central",
+                        stock:"0"
+                    }
+                ]
+            }
+        },
+        {
+            prod:
+            {
+                id:"",
+                descrip:"Reglilla de Pino Rustica: 3 x 3 x 10",
+                cost:"",
+                rust_price:"60",
+                cepi_price:"65",
+                stock_list:
+                [
+                    {
+                        suc_id:"001",
+                        suc_name:"Central",
+                        stock:"0"
+                    }
+                ]
+            }
+        },
+        {
+            prod:
+            {
+                id:"",
+                descrip:"Reglilla de Pino Rustica: 3 x 3 x 12",
+                cost:"",
+                rust_price:"70",
+                cepi_price:"75",
+                stock_list:
+                [
+                    {
+                        suc_id:"001",
+                        suc_name:"Central",
+                        stock:"0"
+                    }
+                ]
+            }
+        },
+        {
+            prod:
+            {
+                id:"",
                 descrip:"Reglilla de Pino Rustica: 3 x 4 x 7",
                 cost:"",
                 rust_price:"50",

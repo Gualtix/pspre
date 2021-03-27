@@ -12,6 +12,8 @@ import { CardComponent } from './components/card/card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { CubitoComponent } from './cubito/cubito.component';
+import { AglomeradosComponent } from './components/aglomerados/aglomerados.component';
+import { AtaudesComponent } from './components/ataudes/ataudes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CubitoComponent } from './cubito/cubito.component';
     NavigationComponent,
     LoginComponent,
     CardComponent,
-    CubitoComponent
+    CubitoComponent,
+    AglomeradosComponent,
+    AtaudesComponent
     
   ],
   imports: [
